@@ -313,7 +313,7 @@ theme.set_highlights = function()
 	hl(0, "LspReferenceWrite", { fg = "NONE", bg = c.reference })
 	hl(0, "LspCodeLens", { fg = c.context, bg = "NONE", italic = true })
 	hl(0, "LspCodeLensSeparator", { fg = c.context, bg = "NONE", italic = true })
-	-- hl(0, "LspInlayHint", { fg = c.new_comment, bg = "NONE", italic = false })
+	hl(0, "LspInlayHint", { fg = c.new_comment, bg = "NONE", italic = false })
 
 	-- Quickscope
 	hl(0, "QuickScopePrimary", { fg = "#ff007c", bg = "NONE", underline = true })
